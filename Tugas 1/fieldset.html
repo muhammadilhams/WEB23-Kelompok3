@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+</head>
+<body>
+    <form action="html/portohtml.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Akun</legend>
+            <label for="email">Email : </label> <input type="email" name="email" id="email"><br>
+            <label for="password">Password : </label> <input type="password" name="password" id="password" required><br>
+           </fieldset>
+           <fieldset>
+            <legend>Identitas<br></legend>
+                <label for="nama">Nama : </label> <input type="text" name="nama" id="nama"><br>
+                <label for="nim">NIM : </label><input type="tel" name="nim" id="nim" pattern="(H0)[0-9]{7}" required><br>
+                <label for="gender">Jenis Kelamin</label><br>
+                <input type="radio" name="gender" id="Laki-laki" value="Laki-laki"><label for="Laki-laki">Laki-laki</label><br>
+                <input type="radio" name="gender" id="Perempuan" value="Perempuan"><label for="Perempuan">Perempuan</label><br>
+                <label for="hima">Berorganisasi?</label><br>
+                <input type="radio" name="hima" id="ya" value="Ya"><label for="ya">Ya</label> <br>
+                <input type="radio" name="hima" id="tidak" value="Tidak"><label for="tidak">Tidak</label> <br>
+                <label for="Himpunan">Jika ya,dari mana? </label><br>
+                <select name="Himpunan" id="Himpunan" multiple size="5">
+                    <option value="Himatika" selected>Himatika</option>
+                    <option value="Himastat">Himastat</option>
+                    <option value="Himafi">Himafi</option>
+                    <option value="HMGF">HMGF</option>
+                    <option value="HMK">HMK</option>
+                    <option value="Himbio">Himbio</option>
+                </select><br>
+                <label for="alasan">Mengapa masuk organisasi?</label><br>
+                <textarea cols="80" rows="20"></textarea><br>
+                <label for="slider">Seberapa ingin anda masuk organisasi? </label><br>
+                <input type="range" name="slider" id="slider" min="0" max="10" value="0"><br>
+                <label for="sosmed">Apakah anda punya sosial media?</label><br>
+                <input type="radio" name="sosmed" id="ya" value="Ya"><label for="ya">Ya</label> <br>
+                <input type="radio" name="sosmed" id="tidak" value="Tidak"><label for="tidak">Tidak</label> <br>
+                <label>Jika ya,sosmed apa yang anda punya?</label><br>
+                <label for="facebook">Facebook</label><br>
+                <input type=" checkbox" name="sosmed" id="facebook" value="facebook">
+                <input type=" checkbox" name="sosmed" id="instagram" value="instagram">
+                <label for="instagram">Instagram</label><br>
+                <input type=" checkbox" name="sosmed" id="x" value="x">
+                <label for="x">X/Twitter</label>
+           </fieldset>
+           <input type="image" src="img/IMG_5964.webp" width="100px" >
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- textarea -->
+    <form name="textarea" method="get" enctype="application/x-www-form-urlencoded"
+    target="_blank">
+    <label for="deskripsi">Deskripsi diri : </label>
+    <textarea cols="40" rows="10"></textarea><br>
+    <!-- button tag -->
+    <button type="button">
+        <img src="IMG_5964.webp" width=200px height="auto" alt="img1">
+    </button><br>
+    <!-- Select Tag -->
+    <label for="Himpunan">Dari Himpunan </label><br>
+    <select name="Himpunan" id="Himpunan" multiple size="3">
+        <option value="Himatika" selected>Himatika</option>
+        <option value="Himastat">Himastat</option>
+        <option value="Himafi">Himafi</option>
+        <option value="HMGF">HMGF</option>
+        <option value="HMK">HMK</option>
+        <option value="Himbio">Himbio</option>
+    </select>
+    <!-- optgroup tag (pengembangan dari select) -->
+    <label for="hobby">Hobi</label>
+    <select name="hobby" id="hobby">
+        <optgroup label="Coding">
+            <option value="java">Java</option>
+            <option value="py">Python</option>
+        </optgroup>
+        <optgroup label="Game">
+            <option value="ML">Mobile legend</option>
+            <option value="Valorant" selected>Valorant</option>
+        </optgroup>
+    </select>
+    <!-- Datalist -->
+    <label for="hobby">Hobby :</label><br>
+    <input type="text" name="hobby" id="hobby" list="hobi"><br>
+    <button type="submit">Selesai</button>
+
+   <datalist id="hobi">
+        <option value="Coding">Koding</option>
+        <option value="Game">Game</option>
+        <option value="badminton">Bulutangkis</option>
+   </datalist>
+   <!-- Field set -->
+   <fieldset>
+    <legend>Identitas</legend>
+    <label for="nama">Nama : </label> <input type="text" name="nama" id="nama"><br>
+    <label for="email">Email : </label> <input 
+   </fieldset>
+    </form> 
+    
+</body>
+</html>

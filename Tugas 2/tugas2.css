@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav div{
+    /* margin: auto; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: orange;
+    width: 100vw;
+    top: 0%;
+    position: sticky;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: black;
+}
+.p1{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: large;
+}
+.imgkont{
+    margin: 0% 15% 2% 15%;
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    padding: 0%;
+    height: 70%;
+}
+.imgkont img{
+    max-width: 30%;
+    min-width: 25%;
+    transition: transform 0.4s ease-in-out;
+    margin: 1%;
+}
+.imgkont img:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 2%;
+    background-color: rgb(34, 134, 61);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0px;
+}
+
+footer .rd{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.r{
+    margin: 0%;
+}
+footer .ld{
+    display:  inline-block;
+    width: 20%;
+    justify-content: center;
+}
+.ld p{
+    display: flex;
+    justify-content: center;
+}
+.ld img{
+    width:25%;
+    margin-left: 35%;
+}
+@media screen and (max-width: 1268px){
+    .imgkont img{
+        max-width: 45%;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    footer.ld,footer.rd{
+        width: 100%;
+        margin: 2% 0;
+    }
+    .ld img{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 850px){
+    .imgkont img{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    footer.ld,footer.rd{
+        width: 100%;
+        margin: 2% 0;
+    }
+    .ld img{
+        margin: auto;
+    }
+
+}
+    

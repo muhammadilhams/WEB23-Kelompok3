@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Up File</title>
+</head>
+<form action="form.html" method="post" enctype="multipart/form-data"><br>
+    <label for="profile">Upload</label><br>
+    <input type="file" name="profile" id="profile"><br>
+    <input type="submit" value="Upload"><br>
+    <!-- hidden input -->
+    <input type="hidden" name="user_id" id="user_id" value="sal"><br>
+    <label for="nama">Nama : </label><br>
+    <input type="text" name="nama" id="nama"><br>
+    <!-- Submit Image -->
+    <input type="image" src="Nilou.png" value="Up"><br>
+    <!-- Input number -->
+    <label for="IP_Semester">IP</label><br>
+    <input type="number" name="IP_Semester" id="IP_Semester" min="0" max="4.0"><br>
+    <!-- Input password -->
+    <label for="pass">Password</label><br>
+    <input type="password" name="pass" id="pass"><br>
+    <!-- Input radio -->
+    <label for="pemilu">Coblos Pilihan Anda</label><br>
+    <input type="radio" name="pemilu" id="Prabowo" value="Prabowo"><label for="Prabowo">Prabowo</label><br>
+    <input type="radio" name="pemilu" id="Anies" value="Anies"><label for="Anies">Anies</label><br>
+    <input type="radio" name="pemilu" id="Ganjar" value="Ganjar"><label for="Ganjar">Ganjar</label><br>
+    <input type="submit" value="Coblos">
+    <!-- Input Range -->
+    <label for="nilai_ujian">Nilai Ujian</label><br>
+    <input type="range" name="nilai_ujian" id="nilai ujian" min="0" max="100" step="10"><br>
+    <!-- Input Telepon(u/ penggunaan regex) -->
+    <label for="telepon">Nomor Telepon</label><br>
+    <input type="tel" name="telepon" id="telepon" pattern="(62)(0-9){9-11}"><br>
+</form>
+<body>
+    
+</body>
+</html>
