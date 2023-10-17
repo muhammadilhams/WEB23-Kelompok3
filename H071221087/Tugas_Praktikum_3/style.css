@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #6B7073;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.nav-link {
+    color: azure;
+}
+
+.container{
+    size: 50px;
+}
+
+.Seller {
+    text-align: center;
+}
+
+.cardful {
+    background-color: white;
+}
+
+.card {
+    margin: 20px;
+}
+
+#BESTSELLERS {
+    margin-top: 150px;
+}
+
+.card img {
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #6B7073;
+    padding-top: 0;
+}
+
+.cardful h1 {
+    text-align: center;
+    padding-top: 20px;
+}
