@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+    <title>Simple Card Game</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600&display=swap');
+    </style>
+</head>
+<body>
+    <main>
+        <div class="status">
+            <p id="bet">Your Bet: </p> <!-- <-- untuk tempat jumlah betnya -->
+            <p id="credit">Your Credit: </p>
+        </div>
+        <div class="players">
+            <div class="player">
+                <h1>You</span></h1>
+                <div id="cards-el" class="cards">
+                    <img src="cards/BACK.png" alt="">
+                </div>
+                <span id="sum-el"></span>
+            </div>
+            <div class="player">
+                <h1>Ai</span></h1>
+                <div id="ai-cards-el" class="cards">
+                    <img src="cards/BACK.png" alt="">
+                </div>
+                <span id="ai-el"></span>
+            </div>
+        </div>
+
+        <p id="message-el"></p>
+
+
+        <div class="bottom">
+            <div class="bet">
+                <input type="number" id="input-bet" placeholder="Enter your bet" />
+                <button id="input-bet-btn" onclick="getBet()">Place Bet</button>
+            </div>
+            <div class="butts">
+                <button id="start" onclick="start()">Start</button>
+                <button id="new-card" onmouseover="hover()">Add</button>
+                <button id="hold">Hold</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
