@@ -1,0 +1,85 @@
+.navbar-nav .nav-link {
+    color: rgb(31, 72, 139); /* Warna teks putih */
+    font-size: 18px; /* Ubah ukuran font sesuai kebutuhan Anda */
+    margin-right: 10px; /* Beri jarak antara item menu */
+}
+
+/* Atur tampilan item menu pada navbar ketika dihover */
+.navbar-nav .nav-link:hover {
+    color: white/* Warna teks biru ketika dihover */
+}
+
+/* .card-title-profile{
+    justify-content: center;
+    display: flex;
+    margin-top: 85px;
+}
+
+.card-title-profile .card-title{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.card-body .card-text-p{
+    font-size: 15px;
+    padding-top: 0;
+    text-align: center
+} */
+
+.carousel-inner .carousel-caption{
+    /* border: 2px solid black; */
+    position: absolute;
+    bottom: 20px;
+}
+.carousel-inner .carousel-caption .carousel-p{
+    /* border: 2px solid black; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.card-container .card-body{
+    /* border: 5px solid black;/ */
+    text-align: center;
+}
+/* .card{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+} */
+
+.container-footer{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.footer-p{
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.cp{
+    /* border: 1px solid black; */
+    list-style-type: none;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        position: absolute;
+        /* right: 10px; Sesuaikan jarak dari kanan sesuai kebutuhan */
+        top: 10px; /* Sesuaikan jarak dari atas sesuai kebutuhan */
+    }
+    .navbar-toggler-icon {
+        /* border: 1px solid white; Menambahkan border tebal berwarna putih */
+        padding: 10px; /* Memberikan padding agar ikon terlihat lebih tebal */
+        border-radius: 2px; /* Mengatur sudut border */
+    }
+    .card {
+        text-align: center;
+        align-items: center;
+    }
+}
