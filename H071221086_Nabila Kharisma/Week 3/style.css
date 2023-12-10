@@ -1,0 +1,19 @@
+.carousel-item{
+    height: 90vh;
+}
+
+
+
+.section-Climbing,
+.section-Snorkeling,
+.section-Photo{
+    margin: 5rem 0;
+}
+
+.section-testimoni{
+    padding: 2rem 0;
+    background: linear-gradient(0deg, rgba(328,181,224,0.02) 0%, rgba(28,181,224,0.05) 100%)
+}
+
+
+
