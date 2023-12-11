@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Gabarito', sans-serif;
+}
+
+main {
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    row-gap: 1rem;
+    padding: 2rem;
+    height: 600px;
+}
+
+.players {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    column-gap: 2rem;
+
+    min-height: 300px;
+    padding: .5rem;
+}
+
+.player {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 120px;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.bet {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#credit {
+    margin-top: .5rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+input[type=number] {
+    height: 30px;
+    width: 112px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+    font-family: 'Gabarito', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    width: 120px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+
+    transition: background color .25s ease-in-out;
+    transition: box-shadow .15s;
+}
+
+#input-bet-btn:hover {
+    box-shadow: 0 0 10px 5px #0000007d;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 2rem 0 2rem 1rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: 18px;
+    justify-self: left;
+    align-self: flex-start;
+}
+
+#start {
+    background-color: black;
+    color: white;
+}
+
+#result {
+    font-size: 18px;
+}
+
+#message-el {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 25px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+p {
+    height: 20px;
+}
