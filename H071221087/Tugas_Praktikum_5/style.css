@@ -1,0 +1,227 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* .wallpaper {
+    background-image: url("images/table.avif"); 
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute; 
+    height: 100%;
+    background-size: cover;
+} */
+
+.box {
+    /* background-size: 100%; */
+    background-image: url(images/bg.avif.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.jumchip {
+    text-align: center;
+    background-color: white;
+}
+
+.blackjack h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    height: 821px;
+}
+
+.fitur {
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(177, 255, 164);
+    /* background-image: url(images/diler.jpg); */
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 143px;
+    
+}
+
+.fitur h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.fitur img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.fitur .input,
+.fitur .label {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.bet {
+    display: flex;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.buttons button {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.order button {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.computer .karakter {
+    border-radius: 10rem;
+}
+
+.table .computer {
+    display: flex;
+    text-align: left;
+    padding-left: 65px;
+}
+
+.table .computer img {
+    width: 130px;
+    height: 150px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.table .computer h5 {
+    padding-bottom: 20px;
+}
+
+.computerCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.kartuComputer h5 {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    margin: 0px;
+    padding-right: 35px;
+    font-size: 20px;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+.table .player {
+    display: flex;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.table .player img {
+    width: 150px;
+    height: 150px;
+    position: sticky;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.table .player .kartuPlayer img {
+    width: 70px;
+    height: 90px;
+}
+
+.table .player h5 {
+    padding-bottom: 20px;
+}
+
+.player .karakter {
+    border-radius: 10rem;
+}
+
+.playerCard {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kartuPlayer h2 {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.kartuPlayer h5 {
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.hasil {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hasil h2 {
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
